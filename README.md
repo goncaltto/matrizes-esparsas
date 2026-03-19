@@ -1,4 +1,3 @@
-** anotações sobre explicações do Pedro
 
 1. Dinâmico:
    - construir e utilizar um elo dentro da classe matriz, excluir a classe Lista
