@@ -1,123 +1,110 @@
-📊 #Matrizes Esparsas#
+<div align="center">
 
-Implementação de matrizes esparsas utilizando duas abordagens distintas, com o objetivo de analisar eficiência em termos de uso de memória e desempenho.
+# 📊 MATRIZES ESPARSAS
 
-📌 Sobre o projeto
+Implementação e análise de desempenho de diferentes representações de matrizes esparsas.
 
-Este projeto foi desenvolvido como trabalho da disciplina de Estruturas de Dados, com foco na implementação e comparação de duas formas de representação de matrizes esparsas:
+</div>
 
-🔹 Representação estática (matriz tradicional)
+---
 
-🔹 Representação com listas encadeadas
+## 📌 SOBRE O PROJETO
 
-Matrizes esparsas são estruturas que possuem grande quantidade de valores zero, sendo possível otimizar armazenamento e processamento ao armazenar apenas os elementos não nulos .
+Este projeto implementa matrizes esparsas utilizando duas abordagens distintas, com o objetivo de analisar eficiência em termos de memória e tempo de execução.
 
-🎯 Objetivo
+Foram desenvolvidas duas representações:
 
-Implementar operações sobre matrizes esparsas
+- Matriz estática (array bidimensional)  
+- Matriz utilizando listas encadeadas  
 
-Comparar diferentes estruturas de dados
+Matrizes esparsas possuem grande quantidade de valores zero, permitindo otimização ao armazenar apenas os elementos não nulos :contentReference[oaicite:0]{index=0}
 
-Avaliar desempenho computacional
+---
 
-Analisar consumo de memória
+## 🎯 OBJETIVO
 
-⚙️ Funcionalidades
+- Comparar diferentes estruturas de dados  
+- Avaliar desempenho em operações com matrizes  
+- Reduzir uso de memória  
+- Aplicar conceitos de estruturas de dados na prática  
 
-Ambas as implementações possuem os seguintes métodos:
+---
 
-Inserção e remoção de elementos
+## ⚙️ FUNCIONALIDADES
 
-Busca de valores
+As duas implementações incluem:
 
-Impressão da matriz
+- Inserção de elementos  
+- Remoção de elementos  
+- Busca de valores  
+- Impressão da matriz  
 
-Verificação de:
+### 🔍 Verificações
 
-Matriz vazia
+- Matriz vazia  
+- Matriz diagonal  
+- Matriz linha  
+- Matriz coluna  
+- Matriz triangular (superior e inferior)  
+- Matriz simétrica  
 
-Matriz diagonal
+### ➕ Operações
 
-Matriz linha e coluna
+- Soma de matrizes  
+- Multiplicação de matrizes  
+- Transposta  
 
-Matriz triangular (superior e inferior)
+---
 
-Matriz simétrica
+## 🧠 ESTRUTURA DO PROJETO
 
-Operações matemáticas:
+O sistema é dividido em duas abordagens principais:
 
-Soma
+### 🔹 Matriz Estática
 
-Multiplicação
+- Implementação com array bidimensional  
+- Acesso direto aos elementos  
+- Maior consumo de memória  
 
-Transposta
+### 🔹 Listas Encadeadas
 
-🧠 Estrutura do projeto
+- Armazena apenas valores diferentes de zero  
+- Estrutura baseada em nós  
+- Formato: (linha, coluna, valor)  
+- Mais eficiente para matrizes esparsas  
 
-O projeto é dividido em duas principais classes:
+---
 
-MatrizEstatica → Representação tradicional (array bidimensional)
-
-MatrizEsparsaLista → Representação com listas encadeadas
-
-Na abordagem com listas encadeadas:
-
-Apenas elementos ≠ 0 são armazenados
-
-Cada elemento segue o formato: (linha, coluna, valor)
-
-📈 Testes de desempenho
+## 📈 TESTES DE DESEMPENHO
 
 Foram realizados testes com matrizes de diferentes tamanhos:
 
-10x10 até 100.000x100.000
+- 60% de elementos nulos  
+- Execução de cada operação 10 vezes  
+- Cálculo de tempo médio  
 
-Grau de esparsidade: 60% de zeros
+---
 
-Cada operação foi executada 10 vezes
+## 📊 RESULTADOS
 
-Foi calculado o tempo médio de execução
+- Listas encadeadas são mais eficientes em memória  
+- Matriz estática é mais simples de implementar  
+- O desempenho varia conforme operação e tamanho da matriz  
 
-📊 Resultados
+---
 
-Os resultados mostram que:
+## 🚀 COMO EXECUTAR
 
-A abordagem com listas encadeadas é mais eficiente em memória
-
-A matriz estática pode ser mais simples, porém menos eficiente em cenários com muitos zeros
-
-O desempenho varia conforme o tamanho da matriz e operação realizada
-
-🚀 Como executar
-
-Clone o repositório:
-
+```bash
 git clone https://github.com/goncaltto/matrizes-esparsas.git
+```
 
-Abra o projeto na sua IDE (IntelliJ, Eclipse, VS Code)
+## 🛠️ TECNOLOGIAS UTILIZADAS
+ - Java
+ - 
+##📚 CONCEITOS ABORDADOS
 
-Execute a classe principal
-
-🛠️ Tecnologias utilizadas
-
-Java
-
-Estruturas de Dados (Listas Encadeadas)
-
-📚 Conceitos abordados
-
-Matrizes esparsas
-
-Estruturas dinâmicas
-
-Complexidade de algoritmos
-
-Análise de desempenho
-
-👩‍💻 Autoria
-
-Desenvolvido por Jonathan Gonçalves Brito
-
-📌 Observações
-
-Este projeto tem caráter acadêmico, com foco no aprendizado de estruturas de dados e análise de eficiência.
+- Matrizes esparsas
+- Estruturas dinâmicas
+- Complexidade de algoritmos
+- Análise de desempenho
