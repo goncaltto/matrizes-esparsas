@@ -17,7 +17,7 @@ Foram desenvolvidas duas representações:
 - Matriz estática (array bidimensional)  
 - Matriz utilizando listas encadeadas  
 
-Matrizes esparsas possuem grande quantidade de valores zero, permitindo otimização ao armazenar apenas os elementos não nulos :contentReference[oaicite:0]{index=0}
+Matrizes esparsas possuem grande quantidade de valores zero, permitindo otimização ao armazenar apenas os elementos não nulos.
 
 ---
 
